@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci 2048</title>
+    <link rel="stylesheet" href="fibonacci.css">
+    <script src="fibonacci.js"></script>
+</head>
+<body>
+    <h1>Fibonacci 2048</h1>
+    <div class="scoresContainer">
+        <div class="scoreContainer">
+            <h2 class="score">Score: <span id="score">0</span></h2>
+        </div>
+        <div class="highScoreContainer">
+            <h2 class="highScore">High Score: <span id="highScore">0</span></h2>
+        </div>
+    </div>
+    <div class="board" id="board">
+    </div>
+    <div class="middleRow">
+        <button id="restart" onclick="restart()">New Game</button>
+        <button id="rules" onclick="location.href='rules.html'">How To Play</button>
+    </div>
+    <div>
+        <h2 id="endGame"></h2>
+    </div>
+</body>
+</html>
